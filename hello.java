@@ -5,6 +5,5 @@ public class hello {
         System.out.println("New feature1 to be added here");
         System.out.println("New feature1 to be added here again");
         System.out.println("New feature1 to be added here again");
-        System.out.println("New feature1 to be added here again");
     }
 }
