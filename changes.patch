@@ -1,12 +1,29 @@
+diff --git a/changes.patch b/changes.patch
+index 740e6c6..e69de29 100644
+--- a/changes.patch
++++ b/changes.patch
+@@ -1,12 +0,0 @@
+-diff --git a/hello.java b/hello.java
+-index 706d0dc..369c66c 100644
+---- a/hello.java
+-+++ b/hello.java
+-@@ -2,7 +2,6 @@ public class hello {
+-     public static void main(String[] args) {
+-         System.out.println("Hello, World!");
+-         System.out.println("Hello, World from branch feature1");
+--        System.out.println("Hello, World from branch feature2");
+-         System.out.println("New feature1 change");
+-         System.out.println("New feature1 to be added here");
+-         System.out.println("New feature1 to be added here again");
 diff --git a/hello.java b/hello.java
-index 706d0dc..369c66c 100644
+index 369c66c..248765f 100644
 --- a/hello.java
 +++ b/hello.java
-@@ -2,7 +2,6 @@ public class hello {
-     public static void main(String[] args) {
-         System.out.println("Hello, World!");
+@@ -4,6 +4,5 @@ public class hello {
          System.out.println("Hello, World from branch feature1");
--        System.out.println("Hello, World from branch feature2");
          System.out.println("New feature1 change");
          System.out.println("New feature1 to be added here");
-         System.out.println("New feature1 to be added here again");
+-        System.out.println("New feature1 to be added here again");
+     }
+ }
+\ No newline at end of file
