@@ -1,3 +1,4 @@
+//Following is the class for Vehicle which will later be extended by Car and Cycle classes.
 abstract class Vehicle {
 
     protected int speed;
@@ -19,6 +20,7 @@ abstract class Vehicle {
     public abstract void stop();
 }
 
+//The car class extends vehicle and overrides its methods. It also has its own variables like engine and ignition.
 class Car extends Vehicle {
 
     private Engine engine;
@@ -50,6 +52,7 @@ class Car extends Vehicle {
     }
 }
 
+//The cycle class extends vehicle and overrides its methods like start, run, and stop.
 class Cycle extends Vehicle {
 
     public Cycle(int speed, double weight) {
@@ -73,6 +76,7 @@ class Cycle extends Vehicle {
     }
 }
 
+//The VehicleFactory class contains a static method to create vehicles based on their type.
 public class VehicleFactory {
 
     public static Vehicle createVehicle(String type) {
@@ -102,6 +106,7 @@ public class VehicleFactory {
     }
 }
 
+//This is a supporting class used by the Car class.
 class Engine {
 
     public void startEngine() {
@@ -113,6 +118,7 @@ class Engine {
     }
 }
 
+//This is another supporting class used by the Car class.
 class Ignition {
 
     public void turnOn() {
@@ -124,6 +130,7 @@ class Ignition {
     }
 }
 
+//This is a supporting class used by both Car and Cycle classes.
 class Brake {
 
     public void applyBrake() {
@@ -131,6 +138,7 @@ class Brake {
     }
 }
 
+//This is a supporting class used by both Car and Cycle classes.
 class Seat {
 
     private int seatCount = 1;
