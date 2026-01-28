@@ -97,7 +97,8 @@ public class VehicleFactory {
         car.run();
         car.stop();
 
-        System.out.println("----------------------");
+        System.out.println();
+        System.out.println("Now Cycle:");
 
         Vehicle cycle = VehicleFactory.createVehicle("CYCLE");
         cycle.start();
